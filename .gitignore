@@ -1,8 +1,8 @@
-BlogServer/.editorconfig
-BlogServer/.env.example
-BlogServer/.eslintignore
-BlogServer/.eslintrc
-BlogServer/yarn.lock
+.editorconfig
+.env.example
+.eslintignore
+.eslintrc
+yarn.lock
 ############################
 # OS X
 ############################

@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogservers",
+  "info": {
+    "name": "blogserver"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}
