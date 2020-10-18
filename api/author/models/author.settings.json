@@ -30,6 +30,10 @@
     "admin_user": {
       "plugin": "admin",
       "model": "user"
+    },
+    "posts": {
+      "via": "author",
+      "collection": "post"
     }
   }
 }
