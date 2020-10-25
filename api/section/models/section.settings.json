@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sections",
+  "info": {
+    "name": "Section"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "id1": {
+      "type": "string"
+    },
+    "texid1": {
+      "type": "richtext"
+    }
+  }
+}
