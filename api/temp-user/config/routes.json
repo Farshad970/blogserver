@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/temp-users",
+      "handler": "temp-user.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/temp-users/count",
+      "handler": "temp-user.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/temp-users/:id",
+      "handler": "temp-user.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/temp-users",
+      "handler": "temp-user.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/temp-users/:id",
+      "handler": "temp-user.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/temp-users/:id",
+      "handler": "temp-user.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

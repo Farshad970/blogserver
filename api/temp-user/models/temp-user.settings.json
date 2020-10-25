@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "temp_users",
+  "info": {
+    "name": "temp_user"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "your_email": {
+      "type": "email"
+    }
+  }
+}
